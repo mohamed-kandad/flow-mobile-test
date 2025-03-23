@@ -32,7 +32,16 @@ Ce test vise à évaluer la capacité du candidat à :
 
 <img src="src/assets/images/login.png" alt="Page de Login" width="300" height="650" />
 <img src="src/assets/images/map.png" alt="Page Carte" width="300" height="650" />
-<img src="src/assets/images/addreview.png.png" alt="Modal Agent" width="300" height="650" />
+<img src="src/assets/images/addreview.png" alt="Modal Agent" width="300" height="650" />
+
+### Démo Vidéo
+
+Vous pouvez voir une démonstration de l'application attendue dans la vidéo ci-dessous:
+<video width="600" height="400" controls>
+
+  <source src="/assets/videos/projectVideo.mov" type="video/mp4">
+  Votre navigateur ne supporte pas la lecture de vidéos.
+</video>
 
 ## 📋 Fonctionnalités Requises
 
