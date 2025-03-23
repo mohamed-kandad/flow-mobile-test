@@ -4,8 +4,6 @@ Ce dépôt contient le projet de test technique pour la position de Développeur
 
 ## 🎯 Objectifs du Test
 
-Ce test vise à évaluer la capacité du candidat à :
-
 1. Créer une application mobile avec React Native & Expo
 2. Utiliser TypeScript pour le typage des composants et des actions Redux
 3. Gérer l'état global avec Redux (Redux Toolkit recommandé)
@@ -33,53 +31,6 @@ Ce test vise à évaluer la capacité du candidat à :
 <img src="src/assets/images/login.png" alt="Page de Login" width="300" height="650" />
 <img src="src/assets/images/map.png" alt="Page Carte" width="300" height="650" />
 <img src="src/assets/images/addreview.png" alt="Modal Agent" width="300" height="650" />
-
-### Démo Vidéo
-
-Vous pouvez voir une démonstration de l'application attendue dans la vidéo ci-dessous:
-<video width="600" height="400" controls>
-
-  <source src="/assets/videos/projectVideo.mov" type="video/mp4">
-  Votre navigateur ne supporte pas la lecture de vidéos.
-</video>
-
-## 📋 Fonctionnalités Requises
-
-### 1. Page de Login
-
-- Accessible via un écran Stack.Screen ("Login")
-- Formulaire de connexion avec:
-  - countryCode (ex: +33)
-  - phone (ex: 12345678)
-  - password (ex: 1234)
-- Validation des champs avec Formik + Yup
-- Stockage de l'authentification dans Redux et AsyncStorage
-- Redirection vers l'écran Carte en cas de succès
-
-**Bonus**:
-
-- Bouton "Se souvenir de moi" avec persistance via AsyncStorage
-- Animation de chargement (Lottie, react-native-animatable)
-
-### 2. Page Carte (sécurisée)
-
-- Accessible uniquement pour les utilisateurs connectés
-- Google Map interactive centrée sur la position de l'utilisateur
-- Marqueurs affichant la position des agents
-- Bouton de déconnexion
-- Fonctionnalités spécifiques:
-  - Marqueur de couleur différente pour l'agent avec la meilleure note
-  - Modal au clic sur un marqueur affichant:
-    - Nom et prénom de l'agent
-    - Numéro de téléphone
-    - Note moyenne (calculée dynamiquement)
-    - Liste des commentaires
-    - Formulaire d'ajout de commentaire (score + texte)
-
-**Bonus**:
-
-- Animation d'ouverture du modal
-- Tri des agents par distance depuis l'utilisateur
 
 ## 📂 Structure du Projet
 
