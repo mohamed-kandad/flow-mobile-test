@@ -20,6 +20,7 @@ import CommonButton from "../components/common/CommonButton";
 import { AirbnbRating } from "react-native-ratings";
 import { calculateAverageRating } from "../utils/helper";
 import AgentModal from "../components/AgentModal";
+import LottieView from "lottie-react-native";
 
 // Mocked agent data
 const arrayAgents: IAgent[] = [
@@ -48,7 +49,6 @@ const MapScreen = () => {
 
   const [selectedAgent, setSelectedAgent] = useState<IAgent | null>(null);
   const [agents, setAgents] = useState<IAgent[] | null>(arrayAgents);
-  console.log("🚀 ~ MapScreen ~ agents:", agents);
 
   const [review, setReview] = useState<IReview>({
     name: "",
@@ -153,7 +153,16 @@ const MapScreen = () => {
           ))}
         </MapView>
       ) : (
-        <Text>Loading Map...</Text>
+        <LottieView
+          autoPlay
+          style={{
+            width: "100%",
+            height: "100%",
+            backgroundColor: "#eee",
+          }}
+          // Find more Lottie files at https://lottiefiles.com/featured
+          source={require("../assets/MapAnimation.json")}
+        />
       )}
 
       {/* Logout Button */}
