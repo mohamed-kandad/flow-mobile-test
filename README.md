@@ -30,17 +30,9 @@ Ce test vise à évaluer la capacité du candidat à :
 
 ### Screenshots
 
-![Page de Login](src/assets/images/login.png)
-![Page map](src/assets/images/map.png)
-![Modal Agent](src/assets/images/addreview.png.png)
-
-### Démo Vidéo
-
-Vous pouvez voir une démonstration de l'application attendue dans la vidéo ci-dessous:
-
-[Lien vers la démo vidéo](src/assets/videos/projectVideo.mov)
-
-_Note: Remplacez les liens des images et de la vidéo par les liens réels de votre projet._
+<img src="src/assets/images/login.png" alt="Page de Login" width="300" height="650" />
+<img src="src/assets/images/map.png" alt="Page Carte" width="300" height="650" />
+<img src="src/assets/images/addreview.png.png" alt="Modal Agent" width="300" height="650" />
 
 ## 📋 Fonctionnalités Requises
 
@@ -127,12 +119,7 @@ _Note: Remplacez les liens des images et de la vidéo par les liens réels de vo
    yarn install
    ```
 
-3. Configurer les clés API (pour Google Maps)
-
-   - Créez un fichier `.env` à la racine du projet
-   - Ajoutez votre clé API Google Maps: `GOOGLE_MAPS_API_KEY=votre_clé_api`
-
-4. Démarrer l'application
+3. Démarrer l'application
    ```bash
    expo start
    # ou
@@ -140,27 +127,6 @@ _Note: Remplacez les liens des images et de la vidéo par les liens réels de vo
    # ou
    yarn start
    ```
-
-## 📊 Critères d'Évaluation (20 points)
-
-| Critère                                                               | Points |
-| --------------------------------------------------------------------- | ------ |
-| Structuration du projet (Redux, composants réutilisables)             | /3     |
-| Utilisation correcte de Redux et Redux Toolkit                        | /3     |
-| Gestion de l'authentification et de la navigation sécurisée           | /3     |
-| Qualité du code (lisibilité, respect des bonnes pratiques TypeScript) | /3     |
-| Intégration et manipulation de la carte (Google Maps, markers, notes) | /2     |
-| Validation et gestion des erreurs des formulaires                     | /2     |
-| Bonus animation                                                       | /1     |
-| Bonus "se souvenir de moi"                                            | /1     |
-
-## 📝 Notes pour les Candidats
-
-- Une bonne organisation du code est un critère de sélection important
-- N'hésitez pas à ajouter des commentaires pour expliquer vos choix d'implémentation
-- Assurez-vous que votre code est propre, bien formaté et respecte les bonnes pratiques
-- La gestion des erreurs et les validations sont importantes
-- Les captures d'écran et vidéos fournies servent uniquement de référence visuelle
 
 ## 📚 Ressources Utiles
 
